@@ -1,0 +1,14 @@
+---
+import Base from '../layouts/Base.astro';
+console.log(Astro.props);
+const {basicTitle} = Astro.props.content;
+---
+
+<Base title={basicTitle}>
+    <!-- Now you can add some other structure -->
+    <div class="container my-5">
+    <h1 class = "my-5">{basicTitle} </h1>
+<slot >Default Basic Page Content here</slot>
+</div>
+</Base>
+
