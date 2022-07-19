@@ -2,6 +2,7 @@
 import Base from '../layouts/Base.astro';
 console.log(Astro.props);
 const {basicTitle} = Astro.props.content;
+// basicTitle is defined in file where this component is used(in this case md file)
 ---
 
 <Base title={basicTitle}>

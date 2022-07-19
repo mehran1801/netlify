@@ -1,0 +1,11 @@
+session 2 start at 13:00 minutes from
+how to add global css styles
+I prefere to create css file and import it
+
+--- only way to see css is run npm run build and have a look into dist->assets files(first one)
+
+you can also use multiple css files e.g like reset.css ....How he used it? using @import './reset.css'; at the top of styles.css file.
+
+
+-- if you want to use sass, you need to install sass .
+
